@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - Our Store</title>
+    <link rel="stylesheet" href="./css/products.css">
+</head>
+<body>
+    <header class="main-header">
+        <nav class="navbar">
+            <div class="brand">Satvik_Exclusive</div>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="products.html" class="active">Products</a>
+                <a href="cart.html" class="cart-link">
+                    Cart <span class="cart-count">0</span>
+                </a>
+                <a href="#" class="login-btn">Login</a>
+            </div>
+            <button class="mobile-menu-btn">☰</button>
+        </nav>
+    </header>
+
+    <div class="cart-modal">
+        <h3>Shopping Cart</h3>
+        <div class="cart-items">
+            <!-- Cart items will be added here -->
+        </div>
+        <div class="cart-total">
+            Total: $0.00
+        </div>
+    </div>
+
+    <div class="container">
+        <aside class="category-sidebar">
+            <h2>Categories</h2>
+            <ul class="category-list">
+                <li><button class="category-btn active" data-category="all">All Products</button></li>
+                <li><button class="category-btn" data-category="electronics">Electronics</button></li>
+                <li><button class="category-btn" data-category="clothing">Clothing</button></li>
+                <li><button class="category-btn" data-category="books">Books</button></li>
+            </ul>
+        </aside>
+
+        <main class="products-grid">
+            <!-- Products will be dynamically added here -->
+        </main>
+    </div>
+
+    <footer class="main-footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Satvik_Exclusive</h3>
+                <p>Your one-stop shop for quality products.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p><i class="fas fa-envelope"></i> satvikExclusive@satvik.com</p>
+                <p><i class="fas fa-phone"></i> +918448829941</p>
+                <p><i class="fas fa-map-marker-alt"></i> Hazaribagh, Jharkhand - 825301</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Satvik_Exclusive. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="./js/products.js"></script>
+</body>
+</html>

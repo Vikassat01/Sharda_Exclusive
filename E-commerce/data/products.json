@@ -1,0 +1,94 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "title": "Wireless Headphones",
+            "category": "electronics",
+            "description": "Premium noise-canceling wireless headphones",
+            "image": "./images/electronics/wireless-headphones.jpg",
+            "originalPrice": 199.99,
+            "discountPrice": 149.99
+        },
+        {
+            "id": 2,
+            "title": "Smart Watch",
+            "category": "electronics",
+            "description": "Feature-rich smartwatch with health tracking",
+            "image": "./images/electronics/smart-watch.jpg",
+            "originalPrice": 299.99,
+            "discountPrice": 249.99
+        },
+        {
+            "id": 3,
+            "title": "Denim Jeans",
+            "category": "clothing",
+            "description": "Classic fit denim jeans",
+            "image": "/images/clothing/jeans.jpg",
+            "originalPrice": 79.99,
+            "discountPrice": 59.99
+        },
+        {
+            "id": 4,
+            "title": "Running Shoes",
+            "category": "clothing",
+            "description": "Comfortable running shoes with cushioning",
+            "image": "/images/clothing/shoes.jpg",
+            "originalPrice": 129.99,
+            "discountPrice": 99.99
+        },
+        {
+            "id": 5,
+            "title": "Python Programming",
+            "category": "books",
+            "description": "Complete guide to Python programming",
+            "image": "/images/books/python-book.jpg",
+            "originalPrice": 49.99,
+            "discountPrice": 39.99
+        },
+        {
+            "id": 6,
+            "title": "Smartphone",
+            "category": "electronics",
+            "description": "Latest model smartphone with 5G",
+            "image": "/images/electronics/smartphone.jpg",
+            "originalPrice": 899.99,
+            "discountPrice": 799.99
+        },
+        {
+            "id": 7,
+            "title": "Laptop",
+            "category": "electronics",
+            "description": "Powerful laptop for work and gaming",
+            "image": "/images/electronics/laptop.jpg",
+            "originalPrice": 1299.99,
+            "discountPrice": 1099.99
+        },
+        {
+            "id": 8,
+            "title": "Winter Jacket",
+            "category": "clothing",
+            "description": "Warm winter jacket with fur hood",
+            "image": "/images/clothing/jacket.jpg",
+            "originalPrice": 159.99,
+            "discountPrice": 129.99
+        },
+        {
+            "id": 9,
+            "title": "Web Development",
+            "category": "books",
+            "description": "Modern web development guide",
+            "image": "/images/books/webdev-book.jpg",
+            "originalPrice": 59.99,
+            "discountPrice": 44.99
+        },
+        {
+            "id": 10,
+            "title": "Fitness Tracker",
+            "category": "electronics",
+            "description": "Advanced fitness tracking band",
+            "image": "/images/electronics/fitness-tracker.jpg",
+            "originalPrice": 99.99,
+            "discountPrice": 79.99
+        }
+    ]
+}
